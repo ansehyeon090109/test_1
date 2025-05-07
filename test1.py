@@ -16,3 +16,7 @@ with col2 :
 
 col1.subheader("i am column1 subheader")
 col2.checkbox("this is checkbox2 in col2")
+with tab1 : 
+        st.write('Hello')
+with tab2 :
+        st.write('hi')
