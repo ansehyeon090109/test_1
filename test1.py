@@ -1,5 +1,4 @@
 import streamlit as st 
 
-st.title('title')
-st.header('this is header')
-st.subheader('this is subheader')
+col1, col2 = st.columns([2,3])
+
