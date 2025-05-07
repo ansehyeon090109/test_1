@@ -8,3 +8,6 @@ with col1 :
 with col2 :
     st.title("Here is column2 title")
     st.checkbox("this is checkbox1 in col2")
+
+col1.subheader("i am column1 subheader")
+col2.checkbox("this is checkbox2 in col2")
