@@ -1,8 +1,13 @@
 import streamlit as st 
 
 col1, col2 = st.columns([2,3])
+tab1, tab2 = st.tabs(['Tab A','Tab B'])
 with col1 :
     st.title("Here is column1 title")
+    with tab1 : 
+        st.write('Hello')
+    with tab2 :
+        st.write('hi')
     st.checkbox("this is checkbox1 in col1")
 
 with col2 :
